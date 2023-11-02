@@ -2,10 +2,10 @@
     "email": "janedoe@gmail.com",
     "fname": "Jane Ann Doe",
     "uname": "janedoehunter1",
-    "password": "JaneLovesHunting",
-    "optIn": false,
-    "cool": true, 
-    "lame": false,
-    "spaghet": "confused"
+    "password": "JaneLovesHuntingDoe",
+    "cruise": false,
+    "resort": true, 
+    "tour": false,
+    "social": "no"
 
   }

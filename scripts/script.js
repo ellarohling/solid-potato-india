@@ -10,16 +10,14 @@ $(function () {
         url: "https://ellarohling.github.io/solid-potato-india/assets/data.json",
         dataType: "json",
         success: function (data) {
-          // console.log(data.uname);
-          // $("#uname").val(data.uname);
-          // console.log(data.optIn);
+          
   
-          $("#optIn").prop("checked", data.optIn);
-          $("#bcool").prop("checked", data.cool);
+          $("#cruise").prop("checked", data.cruise);
+          $("#resort").prop("checked", data.resort);
   
   
           $('input[type=radio]').each(function () {
-            if (data.spaghet === $(this).val())
+            if (data.social === $(this).val())
             {
               $(this).prop('checked', true)
                 console.log($(this));
